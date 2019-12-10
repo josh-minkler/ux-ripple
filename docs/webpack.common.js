@@ -83,7 +83,7 @@ module.exports = {
   plugins: [
     new VueLoaderPlugin(),
     new HtmlWebpackPlugin({
-        template: './index.html'
+        template: './src/index.html'
     })
   ]
 };
