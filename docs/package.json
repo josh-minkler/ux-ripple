@@ -1,0 +1,38 @@
+{
+  "name": "vuejs-ux-ripple-docs",
+  "version": "1.0.0",
+  "description": "Documentation for the vuejs-ux-ripple component.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config webpack.prod.js",
+    "start": "webpack-dev-server --open --host 0.0.0.0 --config webpack.dev.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/josh-minkler/vuejs-ux-ripple.git"
+  },
+  "author": "Joshua Minkler",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/josh-minkler/vuejs-ux-ripple/issues"
+  },
+  "homepage": "https://github.com/josh-minkler/vuejs-ux-ripple#readme",
+  "dependencies": {
+    "vue": "^2.6.10"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.7.5",
+    "@babel/preset-env": "^7.7.6",
+    "babel-loader": "^8.0.6",
+    "css-loader": "^3.3.0",
+    "html-webpack-plugin": "^3.2.0",
+    "vue-loader": "^15.7.2",
+    "vue-style-loader": "^4.1.2",
+    "vue-template-compiler": "^2.6.10",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.9.0",
+    "webpack-merge": "^4.2.2"
+  }
+}
