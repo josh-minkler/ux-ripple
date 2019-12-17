@@ -1,4 +1,4 @@
-import uxRipple from './src/uxRipple.js';
+import uxRipple from './dist/uxRipple.js';
 
 export default uxRipple;
 export {

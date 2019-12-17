@@ -234,6 +234,6 @@ function uxRipple(event, element, options) {
       };
     }, true);
   });
-}
+};
 
 export default uxRipple;
