@@ -1,7 +1,7 @@
 {
-  "name": "vuejs-ux-ripple",
-  "version": "1.0.2",
-  "description": "UX ripple mixin for Vuejs",
+  "name": "ux-ripple",
+  "version": "1.0.0",
+  "description": "Function that generates a UX ripple on any element",
   "main": "index.js",
   "dependencies": {},
   "devDependencies": {},
@@ -10,12 +10,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/josh-minkler/vuejs-ux-ripple.git"
+    "url": "git+https://github.com/josh-minkler/ux-ripple.git"
   },
-  "author": "",
+  "author": "josh-minkler",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/josh-minkler/vuejs-ux-ripple/issues"
+    "url": "https://github.com/josh-minkler/ux-ripple/issues"
   },
-  "homepage": "https://github.com/josh-minkler/vuejs-ux-ripple#readme"
+  "homepage": "https://github.com/josh-minkler/ux-ripple#readme"
 }

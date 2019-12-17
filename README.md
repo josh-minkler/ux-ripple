@@ -1,4 +1,4 @@
-# vuejs-ux-ripple
+# UX Ripple
 
 This project is under development.
 
