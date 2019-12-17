@@ -7,7 +7,7 @@ Function that generates a UX ripple in any element.<br/>
 
 Install with npm
 
-    npm install --save https://github.com/josh-minkler/ux-ripple.git
+    npm install --save ux-ripple
 
 Simply call the `uxRipple` function to create a ripple.
 
