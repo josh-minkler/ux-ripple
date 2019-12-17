@@ -1,3 +1,9 @@
-import Ripple from './Ripple.vue';
+import UXRipple from './UXRipple.vue';
 
-export default Ripple;
+const uxRipple = UXRipple.methods.uxRipple;
+
+export default UXRipple;
+export {
+  UXRipple,
+  uxRipple
+}
