@@ -7,10 +7,12 @@
 
 
 <script>
-import UXRipple from '../mixins/UXRipple.js';
+import uxRipple from 'vuejs-ux-ripple';
 
 export default {
-  mixins: [UXRipple]
+  methods: {
+    uxRipple
+  }
 };
 </script>
 
