@@ -1,6 +1,6 @@
 {
   "name": "vuejs-ux-ripple",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "UX ripple mixin for Vuejs",
   "main": "index.js",
   "dependencies": {},
