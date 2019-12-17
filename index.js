@@ -1,9 +1,6 @@
-import UXRipple from './src/UXRipple.js';
+import uxRipple from './src/uxRipple.js';
 
-const uxRipple = UXRipple.methods.uxRipple;
-
-export default UXRipple;
+export default uxRipple;
 export {
-  UXRipple,
   uxRipple
-}
+};
