@@ -4,6 +4,7 @@
   <a
     class="view-on-github"
     href="https://github.com/josh-minkler/vuejs-ux-ripple"
+    @click.stop
   >
     View on GitHub
   </a>
