@@ -15,7 +15,7 @@
 import InvertPage from './components/InvertPage.vue';
 import Examples from './components/Examples.vue';
 import ViewOnGitHub from './components/ViewOnGitHub.vue';
-import UXRipple from './mixins/UXRipple.js';
+import uxRipple from 'vuejs-ux-ripple';
 
 export default {
   components: {
@@ -23,7 +23,9 @@ export default {
     Examples,
     ViewOnGitHub
   },
-  mixins: [UXRipple]
+  methods: {
+    uxRipple
+  }
 };
 </script>
 

@@ -7,10 +7,9 @@
 
 
 <script>
-import UXRipple from '../mixins/UXRipple.js';
+import uxRipple from 'vuejs-ux-ripple';
 
 export default {
-  mixins: [UXRipple],
   data: function() {
     return {
       auto_submit_element: null,
@@ -37,7 +36,8 @@ export default {
 
         this.updateAutoSubmit();
       }.bind(this), 1000);
-    }
+    },
+    uxRipple
   }
 };
 </script>

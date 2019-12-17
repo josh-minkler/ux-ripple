@@ -12,10 +12,9 @@
 
 
 <script>
-import UXRipple from '../mixins/UXRipple.js';
+import uxRipple from 'vuejs-ux-ripple';
 
 export default {
-  mixins: [UXRipple],
   data: function() {
     return {
       childContainer: null
@@ -23,6 +22,9 @@ export default {
   },
   mounted: function() {
     this.childContainer = document.getElementById('ChildContainer');
+  },
+  methods: {
+    uxRipple
   }
 };
 </script>
