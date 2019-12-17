@@ -9,8 +9,8 @@
   },
   "dependencies": {
     "core-js": "^3.5.0",
-    "vue": "^2.6.11",
-    "vuejs-ux-ripple": "git+https://github.com/josh-minkler/vuejs-ux-ripple.git"
+    "ux-ripple": "^1.0.0",
+    "vue": "^2.6.11"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^4.1.0",

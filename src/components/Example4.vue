@@ -12,7 +12,7 @@
 
 
 <script>
-import uxRipple from 'vuejs-ux-ripple';
+import uxRipple from 'ux-ripple';
 
 export default {
   methods: {
