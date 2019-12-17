@@ -1,4 +1,4 @@
-import UXRipple from './src/UXRipple.vue';
+import UXRipple from './src/UXRipple.js';
 
 const uxRipple = UXRipple.methods.uxRipple;
 
